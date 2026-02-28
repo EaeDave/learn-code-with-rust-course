@@ -1,0 +1,2 @@
+In the src folder, run rustc main.rs.
+Then, the rust compiler will generate the main.exe (In Windows) or main (For MacOS or Linux)
