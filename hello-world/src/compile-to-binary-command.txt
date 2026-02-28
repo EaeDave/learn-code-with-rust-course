@@ -4,3 +4,6 @@ Using cargo build or a shortcut (cargo b) (debug standard mode to compile) all t
 Adding --release flag after cargo b or cargo build, then the output will be smaller in target/release (removing debugging metadata)
 Release should be the final stage to the product
 The command cargo clean will delete all compiled stuffs (all target folder)
+Using cargo run (build the executable and run after that, compile)
+Using cargo run --quiet, it removes all debugging in console output
+It's possible to shortcut using cargo r
