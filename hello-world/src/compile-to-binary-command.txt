@@ -7,3 +7,5 @@ The command cargo clean will delete all compiled stuffs (all target folder)
 Using cargo run (build the executable and run after that, compile)
 Using cargo run --quiet, it removes all debugging in console output
 It's possible to shortcut using cargo r
+The command cargo check, don't build (compile) the project, but instead verify if there is something wrong with the code
+And cargo check is faster than run or build, cause don't need to create the binary (used often when acessing coding with ssh if needed)
