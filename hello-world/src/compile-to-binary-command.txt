@@ -1,2 +1,6 @@
 In the src folder, run rustc main.rs.
 Then, the rust compiler will generate the main.exe (In Windows) or main (For MacOS or Linux)
+Using cargo build or a shortcut (cargo b) (debug standard mode to compile) all the project is compiled in target/debug
+Adding --release flag after cargo b or cargo build, then the output will be smaller in target/release (removing debugging metadata)
+Release should be the final stage to the product
+The command cargo clean will delete all compiled stuffs (all target folder)
