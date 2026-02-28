@@ -1,0 +1,2 @@
+Use rustfmt main.rs in src to format the file (just format a single file)
+Or use cargo fmt (format all files from the project)
